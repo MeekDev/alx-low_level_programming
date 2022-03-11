@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Some comments for the main function
+ * main- comments for the main function
  * Description: Main function also known as the entry point
  * this program prints "with proper grammar, but the outcome is a piece of art"
  * Return: 0
