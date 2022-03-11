@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * Some comments for the main function
- * Description: Main 
- * Check the output of the code yourseld
+ * Description: Main function also known as the entry point
+ * this program prints "with proper grammar, but the outcome is a piece of art"
  * Return: 0
  */
 int main(void)
