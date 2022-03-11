@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * Some comments for the main function
- * Goodluck
+ * Description: Main 
+ * Check the output of the code yourseld
+ * Return: 0
  */
 int main(void)
 {
