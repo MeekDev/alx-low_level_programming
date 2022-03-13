@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: print letters a to z, A to Z
+ * Description: print letters from a to z A to Z
  * Result: Always 0 (Success)
  */
 int main(void)
