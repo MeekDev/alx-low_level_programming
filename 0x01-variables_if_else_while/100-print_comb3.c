@@ -1,32 +1,34 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - print all the two cobinations with putchar
+*
+* Return: 0 Always (Success)
+*/
 int main(void)
 {
-	int f_num;
+	int firstNum, secondNum;
 
-	int l_num = 0;
+	firstNum = 48;
 
-	while (l_num < 10)
+	while (firstNum <= 56)
 	{
-		f_num = 0;
-		while (f_num < 10)
+		secondNum = 49;
+
+		while (secondNum <= 57)
 		{
-			putchar('0' + l_num);
-			putchar('0' + f_num);
-
-			if (f_num + l_num != 18)
+			if (firstNum < secondNum)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(firstNum);
+				putchar(secondNum);
+				if (firstNum != 56 || secondNum != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			f_num++;
+			secondNum++;
 		}
-
-		l_num++;
+		firstNum++;
 	}
 	putchar('\n');
 	return (0);
