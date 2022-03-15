@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - print all alphabets
+ * print_alphabet - print all alphabets
  */
-void main(void)
+void print_alphabet(void)
 {
 	char l = 'a';
 
