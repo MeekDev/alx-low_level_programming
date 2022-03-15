@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -5,7 +6,7 @@
  */
 int main(void)
 {
-	int l = 'a';
+	char l = 'a';
 
 	while (l <= 'z')
 	{
