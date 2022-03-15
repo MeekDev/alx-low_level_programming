@@ -9,9 +9,9 @@ int main(void)
 
 	while (l <= 122)
 	{
-		putchar(l);
+		_putchar(l);
 		l++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
