@@ -13,5 +13,4 @@ int main(void)
 		l++;
 	}
 	_putchar('\n');
-	return (0);
 }
