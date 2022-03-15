@@ -9,7 +9,9 @@ int main(void)
 
 	int arrSize = sizeof(arr) / sizeof(int);
 
-	for (int i = 0; i < arrSize; i++)
+	int i;
+
+	for (i = 0; i < arrSize; i++)
 	{
 		_putchar(arr[i]);
 	}
