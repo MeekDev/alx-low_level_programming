@@ -16,6 +16,6 @@ void print_alphabet_x10(void)
 			l++;
 		}
 		i++;
+		putchar('\n');
 	}
-	putchar('\n');
 }
