@@ -6,7 +6,9 @@
  */
 int _abs(int n)
 {
-	int x = int abs(n);
+	int x;
+       
+	x = abs(n);
 
 	return (x);
 }
