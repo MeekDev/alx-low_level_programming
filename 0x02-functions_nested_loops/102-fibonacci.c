@@ -14,7 +14,7 @@ int main(void)
 	printf("1, ");
 	for (i = 1; i <= 50; i++)
 	{
-		if (a != 1)
+		if (i != 1)
 		{
 			printf("%d, ", a);
 
