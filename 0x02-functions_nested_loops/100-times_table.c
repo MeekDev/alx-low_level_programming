@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_times _table - Prints the n times table
  * @n: numbers times table (0 < n <= 15)
