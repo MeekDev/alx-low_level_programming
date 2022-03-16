@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	int a = 1;
-	int b = 1;
-	int c;
-	int i;
+	unsigned long long int a = 1;
+	unsigned long long int b = 1;
+	unsigned long long int c;
+	unsigned long long int i;
 
 	printf("1, ");
 	for (i = 1; i <= 50; i++)
