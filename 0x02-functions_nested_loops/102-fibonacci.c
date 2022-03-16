@@ -4,10 +4,10 @@
  * Description: Fibonacci sequence
  * Return: 0 Always (Success)
  */
+int fibonacci(int);
+
 int main(void)
 {
-	int fibonacci(int);
-
 	int fibonacci(int n)
 	{
 		if (n < 2)
