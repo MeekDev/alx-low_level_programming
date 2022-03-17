@@ -23,6 +23,6 @@ int main(void)
 		j = k;
 		k = next;
 	}
-	print("%lu\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
