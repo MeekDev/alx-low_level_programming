@@ -8,4 +8,4 @@
 int _putchar(char);
 int _isupper(int c);
 int mul(int a, int b);
-#endif;/* MAIN_H */
+#endif /* MAIN_H */i
