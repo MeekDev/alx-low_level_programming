@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 /**
  * _isupper - output uppercase letter
  * @c: parameter to include
@@ -7,11 +6,5 @@
  */
 int _isupper(int c)
 {
-	if (isupper(c))
-	{
-		return (1);
-	} else
-	{
-		return (0);
-	}
+	return (c >= 'A' && c <= "Z");
 }
