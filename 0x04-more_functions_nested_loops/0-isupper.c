@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <ctype.h>
 /**
  * _isupper - output uppercase letter
  * @c: parameter to include
