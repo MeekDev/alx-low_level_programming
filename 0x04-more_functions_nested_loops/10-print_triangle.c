@@ -16,19 +16,14 @@ void print_triangle(int size)
 			{
 				aux = (size - row) - 1;
 				if (col < aux)
-				{
 					_putchar(' ');
-				}
 				else
-				{
 					_putchar(35);
-				}
-				_putchar('\n');
+
 			}
-		}
-		else
-		{
 			_putchar('\n');
 		}
 	}
+	else
+		_putchar('\n');
 }
