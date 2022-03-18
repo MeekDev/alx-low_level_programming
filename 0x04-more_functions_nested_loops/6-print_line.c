@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * print_line - print line
- * @n: paramter
- * Return: nothing
+ * print_line - function that draws a straight line in the terminal.
+ * @n: input value to check
+ * Return: nothing.
  */
+
 void print_line(int n)
 {
 	int i = 0;
@@ -13,12 +15,10 @@ void print_line(int n)
 		if (n > 0)
 		{
 			_putchar(95);
-			i++;
+			i += 1;
 		}
 		else
-		{
 			_putchar('\n');
-		}
 	}
 	_putchar('\n');
 }
