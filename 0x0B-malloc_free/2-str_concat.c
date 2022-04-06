@@ -40,6 +40,7 @@ return (0);
 tmp = conc;
 while (*s1)
 *tmp++ = *s1++;
-while ((*tmp++ = *s2++));
+while ((*tmp++ = *s2++))
+  ;
 return (conc);
 }
